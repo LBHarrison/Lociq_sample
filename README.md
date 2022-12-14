@@ -85,7 +85,7 @@ bunzip2 plsdb.names.bz2
 
 Finally, the sample dataset contains an IncC plasmid fasta file that can be analyzed after the initial database is constructed.
 
-The Lociq instructions assume the fasta file will be in the parent directory.
+The Lociq instructions assume the fasta file will be in the Lociq parent directory.
 
 From the ./Lociq/db/ subdirectory, please enter the following:
 ```
