@@ -6,8 +6,22 @@ In short, the Lociq program is a MLST generator for closed, circular sequences t
 
 This repository contains sample data and instructions for formatting sequences for use in the program..
 
+## Setup directory and retrieve files
 
-## Sample Set Annotation files
+First, create a subdirectory for the sample files.  The example in the Lociq repository assumes the folder will be created as a subdirectory of the Lociq parent directory, though this is adjustable:
+```
+mkdir db
+cd db
+```
+
+Next, download the sample data files
+```
+wget https://github.com/LBHarrison/Lociq_sample/blob/main/plsdb.names.bz2
+wget https://github.com/LBHarrison/Lociq_sample/blob/main/combinedplasmid.csv
+wget https://github.com/LBHarrison/Lociq_sample/blob/main/annotations.tar.bz2
+```
+
+## Preparation of Sample Set Annotation files
 
 Annotation files are in the GFF3 format that contains the full *.fasta sequence.
 
@@ -66,3 +80,7 @@ Perform the following to decompress the plasmid-type metadata file for the refer
 ```
 bunzip2 plsdb.names.bz2
 ```
+
+This should complete the sample dataset retrieval and preparation step.
+
+Please remember to return to the Lociq parent directory.
