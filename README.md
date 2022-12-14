@@ -9,9 +9,14 @@ This repository contains sample data and instructions for formatting sequences f
 
 ## Sample Set Annotation files
 
-Sample annotation files are contained in the GFF directory.
-
 Annotation files are in the GFF3 format that contains the full *.fasta sequence.
+
+Sample annotation files are contained in the compressed annotations.tar.bz2 file.
+
+Annotation files may be extracted with the following:
+```
+tar xjvf annotations.tar.bz2
+```
 
 ## Reference database
 
