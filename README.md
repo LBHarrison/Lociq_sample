@@ -60,4 +60,9 @@ The metadata file is a binary matrix organized as:
 
 metadata files corresponding to the sample data are found here:
 - GFF annotation metadata file:  combinedplasmid.csv
-- PLSDB v2021_06_23 plasmid metadata file: plsdb_meta.csv
+- PLSDB v2021_06_23 plasmid metadata file: plsdb.names.bz2
+
+Perform the following to decompress the plasmid-type metadata file for the reference database to create the plsdb.names metadata file:
+```
+bunzip2 plsdb.names.bz2
+```
