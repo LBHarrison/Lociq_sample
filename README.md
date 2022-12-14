@@ -65,7 +65,7 @@ rm plsdb2.fna
 
 ## Metadata Files
 
-Finally, both the GFF files and the reference files require a plasmid-type metadata file.
+Both the GFF files and the reference files require a plasmid-type metadata file.
 The metadata file is a binary matrix organized as:
 - plasmid type a row headers
 - sequence ID as the column header
@@ -79,6 +79,18 @@ metadata files corresponding to the sample data are found here:
 Perform the following to decompress the plasmid-type metadata file for the reference database to create the plsdb.names metadata file:
 ```
 bunzip2 plsdb.names.bz2
+```
+
+## Subsequent Analysis File
+
+Finally, the sample dataset contains an IncC plasmid fasta file that can be analyzed after the initial database is constructed.
+
+The Lociq instructions assume the fasta file will be in the parent directory.
+
+From the ./Lociq/db/ subdirectory, please enter the following:
+```
+cd ../
+wget https://github.com/LBHarrison/Lociq_sample/blob/main/new.fasta
 ```
 
 This should complete the sample dataset retrieval and preparation step.
