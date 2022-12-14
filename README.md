@@ -1,4 +1,4 @@
-# Lociq_shell
+# Lociq_sample
 
 ## Background
 
