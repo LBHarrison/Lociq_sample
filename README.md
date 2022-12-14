@@ -46,13 +46,13 @@ rm plsdb2.fna
 
 ## Metadata Files
 
-Finally, both the gff files and the reference files require a plasmid-type metadata file.
+Finally, both the GFF files and the reference files require a plasmid-type metadata file.
 The metadata file is a binary matrix organized as:
 - plasmid type a row headers
 - sequence ID as the column header
 - row/col intersection as "1" when the plasmid ID belongs to the corresponding row plasmid type
 - row/col intersection as "0" when the plasmid ID does not belong to the corresponding row plasmid type
 
-metadata files corresponding to the sample data are found here
+metadata files corresponding to the sample data are found here:
 - GFF annotation metadata file:  combinedplasmid.csv
 - PLSDB v2021_06_23 plasmid metadata file: plsdb_meta.csv
