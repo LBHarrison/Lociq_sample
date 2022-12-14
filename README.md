@@ -4,7 +4,7 @@
 
 In short, the Lociq program is a MLST generator for closed, circular sequences that uses both sequence and structural components.  The program was designed with plasmid biology in mind as plasmid molecules are prone to selective pressures and recombination events that affect both plasmid sequence and plasmid structure.
 
-This repository contains sample data and instructions for formatting sequences for use in the program..
+This repository contains sample data and instructions for formatting sequences for use in the program.
 
 ## Setup directory and retrieve files
 
