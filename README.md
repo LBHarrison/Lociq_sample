@@ -16,9 +16,9 @@ cd db
 
 Next, download the sample data files
 ```
-wget https://github.com/LBHarrison/Lociq_sample/blob/main/plsdb.names.bz2
-wget https://github.com/LBHarrison/Lociq_sample/blob/main/combinedplasmid.csv
-wget https://github.com/LBHarrison/Lociq_sample/blob/main/annotations.tar.bz2
+wget https://github.com/LBHarrison/Lociq_sample/raw/main/plsdb.names.bz2
+wget https://github.com/LBHarrison/Lociq_sample/raw/main/combinedplasmid.csv
+wget https://github.com/LBHarrison/Lociq_sample/raw/main/annotations.tar.bz2
 ```
 
 ## Preparation of Sample Set Annotation files
@@ -90,7 +90,7 @@ The Lociq instructions assume the fasta file will be in the Lociq parent directo
 From the ./Lociq/db/ subdirectory, please enter the following:
 ```
 cd ../
-wget https://github.com/LBHarrison/Lociq_sample/blob/main/new.fasta
+wget https://github.com/LBHarrison/Lociq_sample/raw/main/new.fasta
 ```
 
 This should complete the sample dataset retrieval and preparation step.
