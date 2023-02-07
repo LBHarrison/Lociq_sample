@@ -30,6 +30,9 @@ Sample annotation files are contained in the compressed annotations.tar.bz2 file
 Annotation files may be extracted with the following:
 ```
 tar xjvf annotations.tar.bz2
+mkdir GFF
+scp *.gff ./GFF
+
 ```
 
 ## Reference database
@@ -79,6 +82,7 @@ metadata files corresponding to the sample data are found here:
 Perform the following to decompress the plasmid-type metadata file for the reference database to create the plsdb.names metadata file:
 ```
 bunzip2 plsdb.names.bz2
+
 ```
 
 ## Subsequent Analysis File
