@@ -29,7 +29,8 @@ Sample annotation files are contained in the compressed annotations.tar.bz2 file
 
 Annotation files may be extracted with the following:
 ```
-tar xjvf annotations.tar.bz2
+bzip2 -d annotations.tar.bz2
+tar xvf annotations.tar
 mkdir GFF
 scp *.gff ./GFF
 
